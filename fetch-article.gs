@@ -7,7 +7,7 @@ const sheetUrl = SpreadsheetApp.getActiveSpreadsheet();
 
 // 実行対象の関数
 function main() {
-  Qiitaから記事情報を取得;
+  // Qiitaから記事情報を取得;
   const { title, url, date } = fetchQiitaTrend();
 
   // 現在時刻の取得
